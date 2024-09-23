@@ -1,0 +1,190 @@
+h1 {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+ul{
+    color: white;
+    list-style: none;
+}
+
+li {
+    display: inline;
+    font-size: 100%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border: 20px;
+}
+   
+
+a:hover {
+    color: yellow;
+}
+/*CSS de la sección del navegador*/
+
+nav {
+    color: white;
+    text-align: center;
+    
+}
+
+/*CSS de index*/
+
+.partePrincipal {
+    color: white;
+    display: flex;
+}
+
+
+.parrafo {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.parrafoDos {
+    color: white;
+    text-align: left;
+    margin: 0;
+    font-size: 20px;
+}
+
+.botones {
+    text-align: center;
+    color: yellow;
+    padding: 10px;
+    margin: 10px;
+}
+
+.pieDePagina {
+    text-align: center;
+    font-weight: 10px;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+/*CSS sección Nosotros*/
+
+.parrafoNosotros {
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+}
+
+.imagenesNosotros {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+}
+
+.fotosLateral {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;      
+}
+
+.imagenNosotros {
+    margin: 10px 0;        
+    max-width: 100%;         
+    height: auto;            
+}
+
+
+.gridContainer {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: end;
+    gap: 10px;
+}
+
+/*CSS de la seccion Contacto*/
+
+.parrafoContacto {
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+}
+
+.imagenNosotros {
+    width: 200px;
+    height: 200px;
+}
+
+.btn-primary {
+    background-color: white;
+    color: black;
+    justify-items: end;
+}
+
+.form-label {
+    color: white;
+}
+
+/*CSS de la seccion Galeria*/
+
+.foto-galeria {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 100vh;          
+    padding: 20px;        
+}
+
+#carouselExample {
+    max-width: 800px; 
+    width: 100%;      
+}
+
+
+.grid-container {
+    color: white;
+    width: 600px; 
+    margin: 0 auto; 
+    text-align: center; 
+    padding: 60px; 
+}
+
+.multimedia-servicios {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.imagen-servicios {
+    width: 100%;
+    height: auto;
+}
+
+.video-servicios {
+    width: 100%;
+    height: auto;
+}
