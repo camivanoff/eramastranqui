@@ -1,0 +1,16 @@
+header {
+    background-color: $colorfondo;
+}
+
+.foto-galeria {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 100vh;          
+    padding: 20px;        
+}
+
+#carouselExample {
+    max-width: 800px; 
+    width: 100%;      
+}

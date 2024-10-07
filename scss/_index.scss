@@ -1,0 +1,88 @@
+header {
+    background-color: $colorfondo;
+}
+
+h1 { 
+    color: map-get($estilos , colortext);
+    text-align: center;
+}
+
+nav {
+    color: $colortextos;
+    text-align: center;
+}
+
+ul {
+    color: $colorterciario;
+    list-style: none;
+}
+
+li {
+    display: inline;
+    font-size: 100%;
+}
+
+body {
+    background-color: $colorfondo;
+
+}
+
+h2 {
+    color: $colortitulos
+}
+
+p {
+    color: $colortextos;
+}
+
+a {
+    color: white;
+    font-size: 1rem;
+}
+
+a:hover {
+    color: $colorterciario;
+    font-size: 1.5rem;
+    transition: 1s, 1s;
+}
+
+.partePrincipal {
+    color: white;
+    display: flex;
+}
+
+.parrafo {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+}
+
+.parrafoDos {
+    color: white;
+    text-align: left;
+    margin: 0;
+    font-size: 20px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.botones {
+    text-align: center;
+    color: yellow;
+    padding: 10px;
+    margin: 10px;
+}
+
+.pieDePagina {
+    text-align: center;
+    font-weight: 10px;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+

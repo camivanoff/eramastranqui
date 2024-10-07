@@ -1,0 +1,30 @@
+header {
+    background-color: $colorfondo;
+}
+
+.grid-container {
+color: white;
+width: 600px; 
+margin: 0 auto; 
+text-align: center; 
+padding: 60px; 
+}
+
+.multimedia-servicios {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.imagen-servicios {
+    width: 100%;
+    height: auto;
+}
+
+.video-servicios {
+    width: 100%;
+    height: auto;
+}
+
+
+

@@ -1,0 +1,210 @@
+header {
+  background-color: #000000;
+}
+
+h1 {
+  color: yellow;
+  text-align: center;
+}
+
+nav {
+  color: #ffffff;
+  text-align: center;
+}
+
+ul {
+  color: #b8b80f;
+  list-style: none;
+}
+
+li {
+  display: inline;
+  font-size: 100%;
+}
+
+body {
+  background-color: #000000;
+}
+
+h2 {
+  color: grey;
+}
+
+p {
+  color: #ffffff;
+}
+
+a {
+  color: white;
+  font-size: 1rem;
+}
+
+a:hover {
+  color: #b8b80f;
+  font-size: 1.5rem;
+  transition: 1s, 1s;
+}
+
+.partePrincipal {
+  color: white;
+  display: flex;
+}
+
+.parrafo {
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+}
+
+.parrafoDos {
+  color: white;
+  text-align: left;
+  margin: 0;
+  font-size: 20px;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.botones {
+  text-align: center;
+  color: yellow;
+  padding: 10px;
+  margin: 10px;
+}
+
+.pieDePagina {
+  text-align: center;
+  font-weight: 10px;
+  color: white;
+  background-color: black;
+  padding: 20px;
+}
+
+header {
+  background-color: #000000;
+}
+
+body {
+  background-color: black;
+}
+
+h3 {
+  color: #ffffff;
+  padding: 20px;
+}
+
+.parrafoNosotros {
+  color: white;
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+}
+
+.imagenesNosotros {
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+}
+
+.fotosLateral {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagenNosotros {
+  margin: 10px 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.imagenNosotros {
+  margin: 10px 0;
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  background-color: #000000;
+}
+
+.grid-container {
+  color: white;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px;
+}
+
+.multimedia-servicios {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.imagen-servicios {
+  width: 100%;
+  height: auto;
+}
+
+.video-servicios {
+  width: 100%;
+  height: auto;
+}
+
+header {
+  background-color: #000000;
+}
+
+.foto-galeria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+#carouselExample {
+  max-width: 800px;
+  width: 100%;
+}
+
+.itemFormulario {
+  color: white;
+}
+
+.parrafoContacto {
+  color: #ffffff;
+  margin: 10px;
+  padding: 10px;
+}
+
+h4 {
+  color: grey;
+  text-align: center;
+}
+
+.imagenNosotros {
+  width: 200px;
+  height: 200px;
+}
+
+.btn-primary {
+  background-color: #ffffff;
+  color: black;
+  justify-items: end;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  font-size: 100%;
+  transition: transform 0.3s;
+}
+
+/*# sourceMappingURL=styles.css.map */

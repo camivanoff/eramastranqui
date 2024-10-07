@@ -1,0 +1,13 @@
+@import "utilities/variables";
+@import "index";
+@import "nosotros";
+@import "servicios";
+@import "galeria";
+@import "contacto";
+
+nav ul li {
+    display: inline;
+    font-size: 100%;
+    transition: transform 0.3s;
+}
+

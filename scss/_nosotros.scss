@@ -1,0 +1,43 @@
+header { 
+    background-color: $colorfondo;
+}
+
+body {
+    background-color: black;
+}
+
+h3 {
+    color: $colortextos;
+    padding: 20px;
+}
+
+.parrafoNosotros {
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+}
+
+.imagenesNosotros {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+}
+
+.fotosLateral {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;      
+}
+
+.imagenNosotros {
+    margin: 10px 0;        
+    max-width: 100%;         
+    height: auto;            
+}
+
+.imagenNosotros {
+    margin: 10px 0;        
+    max-width: 100%;         
+    height: auto;            
+}

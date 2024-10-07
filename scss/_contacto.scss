@@ -1,0 +1,26 @@
+.itemFormulario {
+    color: white;
+}
+
+.parrafoContacto {
+    color: $colortextos;
+    margin: 10px;
+    padding: 10px;
+}
+
+h4 {
+    color: $colortitulos;
+    text-align: center;
+}
+
+.imagenNosotros {
+    width: 200px;
+    height: 200px;
+}
+
+.btn-primary {
+    background-color: $colortextos;
+    color: black;
+    justify-items: end;
+    text-align: center;
+}
